@@ -48,7 +48,7 @@ $(window).load(function() {
     
     $('#github').animate({
       top: githubPos.top - 200,
-      left: githubPos.left + 200
+      left: githubPos.left + 210
     }, 500);
   }, 750);
   
@@ -60,7 +60,7 @@ $(window).load(function() {
     
     $('#linkedin').animate({
       top: linkedinPos.top - 140,
-      left: linkedinPos.left  + 130
+      left: linkedinPos.left  + 140
     }, 500);
   }, 1000);
   
@@ -72,14 +72,14 @@ $(window).load(function() {
     
     $('#facebook').animate({
       top: facebookPos.top - 80,
-      left: facebookPos.left + 60
+      left: facebookPos.left + 90
     }, 500);
   }, 1250);
   
   setTimeout(function() {
     $('#facebook').animate({
       top: facebookPos.top - 80,
-      left: facebookPos.left + 60
+      left: facebookPos.left + 80
     }, 250);
     
     $('#plus').animate({
