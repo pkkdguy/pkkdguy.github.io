@@ -59,27 +59,27 @@ $(window).load(function() {
     }, 250);
     
     $('#linkedin').animate({
-      top: linkedinPos.top -80,
-      left: linkedinPos.left -60
+      top: linkedinPos.top - 140,
+      left: linkedinPos.left  + 130
     }, 500);
   }, 1000);
   
   setTimeout(function() {
     $('#linkedin').animate({
-      top: linkedinPos.top - 80,
-      left: linkedinPos.left -60
+      top: linkedinPos.top - 140,
+      left: linkedinPos.left + 130
     }, 250);
     
     $('#facebook').animate({
-      top: facebookPos.top - 140,
-      left: facebookPos.left + 130
+      top: facebookPos.top - 80,
+      left: facebookPos.left + 60
     }, 500);
   }, 1250);
   
   setTimeout(function() {
     $('#facebook').animate({
-      top: facebookPos.top - 140,
-      left: facebookPos.left + 130
+      top: facebookPos.top - 80,
+      left: facebookPos.left + 60
     }, 250);
     
     $('#plus').animate({
