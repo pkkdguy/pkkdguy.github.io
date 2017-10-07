@@ -47,39 +47,39 @@ $(window).load(function() {
     }, 250);
     
     $('#github').animate({
-      top: githubPos.top + 10,
-      left: githubPos.left - 3
+      top: githubPos.top - 200,
+      left: githubPos.left + 200
     }, 500);
   }, 750);
   
   setTimeout(function() {
     $('#github').animate({
-      top: githubPos.top,
-      left: githubPos.left
+      top: githubPos.top - 200,
+      left: githubPos.left + 200
     }, 250);
     
     $('#linkedin').animate({
-      top: linkedinPos.top + 10,
-      left: linkedinPos.left
+      top: linkedinPos.top -80,
+      left: linkedinPos.left -60
     }, 500);
   }, 1000);
   
   setTimeout(function() {
     $('#linkedin').animate({
-      top: linkedinPos.top,
-      left: linkedinPos.left
+      top: linkedinPos.top - 80,
+      left: linkedinPos.left -60
     }, 250);
     
     $('#facebook').animate({
-      top: facebookPos.top + 10,
-      left: facebookPos.left + 3
+      top: facebookPos.top - 140,
+      left: facebookPos.left + 130
     }, 500);
   }, 1250);
   
   setTimeout(function() {
     $('#facebook').animate({
-      top: facebookPos.top,
-      left: facebookPos.left
+      top: facebookPos.top - 140,
+      left: facebookPos.left + 130
     }, 250);
     
     $('#plus').animate({
