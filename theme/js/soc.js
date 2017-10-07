@@ -72,14 +72,14 @@ $(window).load(function() {
     
     $('#facebook').animate({
       top: facebookPos.top - 80,
-      left: facebookPos.left + 90
+      left: facebookPos.left + 85
     }, 500);
   }, 1250);
   
   setTimeout(function() {
     $('#facebook').animate({
       top: facebookPos.top - 80,
-      left: facebookPos.left + 80
+      left: facebookPos.left + 75
     }, 250);
     
     $('#plus').animate({
